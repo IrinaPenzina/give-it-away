@@ -9,6 +9,15 @@
 .button-group {
   width: 22%;
   margin-top: -133px;
+  display: flex;
+}
+
+.mybtn1 {
+  flex-grow: 4;
+}
+
+.mybtn2 {
+  flex-grow: 4;
 }
 
 .mybtn {
@@ -21,7 +30,6 @@
   color: white;
   text-align: center;
   font-weight: lighter;
-  margin-right: 5%;
 }
 
 nav {
@@ -56,9 +64,16 @@ a .mybtn{
 
 @media only screen and (max-width: 600px) {
   .button-group {
-    width: 38%;
+    width: 40%;
+    margin-top: -82px;
   }
   .mybtn {
-    padding-top: -50px;
+    padding: 6px 9px;
+  }
+  .note {
+    height: 150px;
+  }
+  #name {
+    font-size: 22px;
   }
 }
