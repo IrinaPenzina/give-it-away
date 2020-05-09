@@ -4,6 +4,12 @@
   font-family: 'M PLUS 1p', sans-serif;
   font-family: 'Indie Flower', cursive;
   font-size: 30px;
+  font-weight: bolder;
+}
+
+p, h1, h2, h3 {
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-weight: lighter;
 }
 
 .button-group {
@@ -40,7 +46,7 @@ a .mybtn{
   text-decoration: none;
 }
 
-.mybtn:hover, a:hover {
+.mybtn:hover {
   text-decoration: none;
   color: #ff0;
   box-shadow: 2px 3px 3px rgba(255, 204, 0, 0.5);
@@ -62,18 +68,76 @@ a .mybtn{
   margin-top: 45px;
 }
 
-@media only screen and (max-width: 600px) {
+.index-phrase {
+  color: #512C96;
+  text-align: center;
+  font-weight: lighter;
+  margin-top: 20px;
+}
+
+@media (min-width: 320px) and (max-width: 767.98px){
   .button-group {
     width: 40%;
-    margin-top: -82px;
+    margin-top: -30px;
   }
   .mybtn {
     padding: 6px 9px;
   }
   .note {
-    height: 150px;
+    height: 102px;
   }
   #name {
-    font-size: 22px;
+    font-size: 19px;
+    padding-left: 16px;
+  }
+  .name {
+    margin-top: 28px;
+  }
+  .index-phrase {
+    font-size: 20px;
+    font-weight: normal;
   }
 }
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .button-group {
+    width: 26%;
+    margin-top: -69px;
+  }
+  .note {
+    height: 140px;
+  }
+  #name {
+    font-size: 23px;
+    padding-left: 31px;
+  }
+  .name {
+    margin-top: 28px;
+  }
+  .index-phrase {
+    font-size: 18px;
+    font-weight: normal;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .button-group {
+    width: 26%;
+    margin-top: -69px;
+  }
+  .note {
+    height: 140px;
+  }
+  #name {
+    font-size: 23px;
+    padding-left: 31px;
+  }
+  .name {
+    margin-top: 28px;
+  }
+  .index-phrase {
+    font-size: 26px;
+    font-weight: normal;
+  }
+}
+
