@@ -1,30 +1,64 @@
 #name {
   color: #512C96;
-  padding-left: 5%;
+  padding-left: 20%;
+  font-family: 'M PLUS 1p', sans-serif;
+  font-family: 'Indie Flower', cursive;
+  font-size: 25px;
 }
 
-.fas {
-  color: #F9DB2C;
+.button-group {
+  width: 22%;
+  margin-top: -90px;
 }
 
 .mybtn {
-  position: absolute;
-  width: 106px;
-  height: 37px;
+  padding: 7px 25px;
   background: #512C96;
   border: 1px solid #512C96;
   box-sizing: border-box;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.25);
   border-radius: 7px;
   color: white;
   text-align: center;
-  margin-left: 85%;
+  font-weight: lighter;
+  margin-right: 5%;
 }
 
-a {
+nav {
+  height: 70px;
+}
+
+a .mybtn{
   text-decoration: none;
 }
 
-.mybtn:hover a:hover {
+.mybtn:hover, a:hover {
   text-decoration: none;
+  color: #ff0;
+  box-shadow: 2px 3px 3px rgba(255, 204, 0, 0.5);
+}
+
+.mynav{
+  margin-left: 5%;
+  margin-top: -10px;
+}
+
+.note {
+  height: 150px;
+  position: relative;
+}
+
+.name {
+  position: absolute;
+  z-index: 1;
+  margin-top: 45px;
+}
+
+@media only screen and (max-width: 600px) {
+  .button-group {
+    width: 38%;
+  }
+  .mybtn {
+    padding-top: -50px;
+  }
 }
