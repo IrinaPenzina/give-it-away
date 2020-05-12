@@ -4,7 +4,6 @@
   font-family: 'M PLUS 1p', sans-serif;
   font-family: 'Indie Flower', cursive;
   font-size: 30px;
-  font-weight: bolder;
 }
 
 p, h1, h2, h3 {
@@ -39,7 +38,7 @@ p, h1, h2, h3 {
 }
 
 nav {
-  height: 70px;
+  height: 69px;
 }
 
 a .mybtn{
@@ -71,8 +70,9 @@ a .mybtn{
 .index-phrase {
   color: #512C96;
   text-align: center;
-  font-weight: lighter;
+  font-weight: normal;
   margin-top: 20px;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
 }
 
 @media (min-width: 320px) and (max-width: 767.98px){
@@ -89,13 +89,14 @@ a .mybtn{
   #name {
     font-size: 19px;
     padding-left: 16px;
+    font-weight: lighter;
   }
   .name {
     margin-top: 28px;
   }
   .index-phrase {
     font-size: 20px;
-    font-weight: normal;
+    font-weight: lighter;
   }
 }
 
@@ -116,7 +117,7 @@ a .mybtn{
   }
   .index-phrase {
     font-size: 18px;
-    font-weight: normal;
+    font-weight: lighter;
   }
 }
 
@@ -137,7 +138,7 @@ a .mybtn{
   }
   .index-phrase {
     font-size: 26px;
-    font-weight: normal;
+    font-weight: lighter;
   }
 }
 

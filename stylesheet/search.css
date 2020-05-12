@@ -1,6 +1,8 @@
 .search__container {
+        /* top: -14px; */
         padding-top: 1px;
         text-align: center;
+        position: relative;
     }
 
 .search__input {
@@ -18,7 +20,7 @@
         background-size: 18px 18px;
         background-position: 95% center;
         border-radius: 50px;
-        border: 1px solid #512C96;
+        border: .5px solid #512C96;
         transition: all 250ms ease-in-out;
         backface-visibility: hidden;
         transform-style: preserve-3d;
@@ -28,7 +30,7 @@
             color: #512C96;
             font-family: 'M PLUS Rounded 1c', sans-serif;
             font-weight: lighter;
-            font-size: 15px;
+            font-size: 17px;
         }
 
 .search__input:hover,
