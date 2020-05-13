@@ -38,6 +38,7 @@
 .user {
   display: flex;
   padding: 5px;
+  font-weight: lighter;
 }
 
 .profile-pic {
@@ -59,12 +60,13 @@
 .tags {
   display: flex;
   justify-content: space-around;
-  width: ;
 }
 
 .tags p {
   font-weight: bolder;
 }
+
+.tag {max-width: 58px;}
 
 .description {
   /* hide text if it more than N lines  */
@@ -111,5 +113,8 @@
 @media (min-width: 320px) and (max-width: 767px){
   .cards {
     margin-top: 13%;
+  }
+  .tags {
+    display: none;
   }
 }
