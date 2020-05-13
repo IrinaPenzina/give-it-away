@@ -1,11 +1,11 @@
 .cards {
-  margin-top: 10%;
+  margin-top: 6%;
   margin-left: 30%;
   width: 40%;
 }
 
 .item-card {
-  height: 330px;
+  height: 337px;
   overflow: hidden;
   background: white;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
@@ -17,9 +17,9 @@
 }
 
 .item-img {
-  height: 153px;
+ height: 200px;
   width: 100%;
-  object-fit: contain;
+  object-fit: cover;
 }
 
 .item-card h5 {
@@ -52,10 +52,61 @@
 }
 
 .item-info {
-  margin: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
 }
 
 .tags {
   display: flex;
   justify-content: space-around;
 }
+
+.description {
+  /* hide text if it more than N lines  */
+  overflow: hidden;
+  /* for set '...' in absolute position */
+  position: relative;
+  /* use this value to count block height */
+  line-height: 1.2em;
+  /* max-height = line-height (1.2) * lines max number (3) */
+  max-height: 3.6em;
+  /* fix problem when last visible word doesn't adjoin right side  */
+  text-align: justify;
+  /* place for '...' */
+  margin-right: -1em;
+  padding-right: 1em;
+}
+/* create the ... */
+.description:before {
+  /* points in the end */
+  content: '...';
+  /* absolute position */
+  position: absolute;
+  /* set position to right bottom corner of block */
+  right: 0;
+  bottom: 0;
+}
+/* hide ... if we have text, which is less than or equal to max lines */
+.description:after {
+  /* points in the end */
+  content: '';
+  /* absolute position */
+  position: absolute;
+  /* set position to right bottom corner of text */
+  right: 0;
+  /* set width and height */
+  width: 1em;
+  height: 1em;
+  margin-top: 0.2em;
+  /* bg color = bg color under block */
+  background: white;
+}
+}
+
+
+
+@media (min-width: 320px) and (max-width: 767px){
+  .cards {
+    margin-top: 13%;
+}
+
