@@ -80,7 +80,6 @@
   /* fix problem when last visible word doesn't adjoin right side  */
   text-align: justify;
   /* place for '...' */
-  margin-right: -1em;
   padding-right: 1em;
 }
 /* create the ... */
