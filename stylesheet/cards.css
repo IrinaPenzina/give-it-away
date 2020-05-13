@@ -59,6 +59,11 @@
 .tags {
   display: flex;
   justify-content: space-around;
+  width: ;
+}
+
+.tags p {
+  font-weight: bolder;
 }
 
 .description {
@@ -101,12 +106,10 @@
   /* bg color = bg color under block */
   background: white;
 }
-}
-
 
 
 @media (min-width: 320px) and (max-width: 767px){
   .cards {
     margin-top: 13%;
+  }
 }
-
