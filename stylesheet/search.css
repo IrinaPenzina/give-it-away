@@ -52,3 +52,22 @@
         font-size: 13px;
         line-height: 18px;
     }
+
+@media (min-width: 320px) and (max-width: 767px){
+  .search__container {
+    top: -14px;
+  }
+  .search__input {
+    width: 83%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+.search__container {
+    top: 0px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+
+}
