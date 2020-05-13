@@ -24,6 +24,7 @@
     <link rel="stylesheet" href="stylesheet/style.css"/>
     <link rel="stylesheet" href="stylesheet/search.css"/>
     <link rel="stylesheet" href="stylesheet/dropdown.css"/>
+    <link rel="stylesheet" href="stylesheet/cards.css"/>
 
     <!-- font-awesome -->
     <link href="stylesheet/fontawesome-free-5.13.0-web/css/all.css" rel="stylesheet">
@@ -38,14 +39,6 @@
     <!-- google font -->
     <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=M+PLUS+1p:wght@300;400;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=M+PLUS+1p:wght@300;400;700&family=M+PLUS+Rounded+1c:wght@100;300;400;500&display=swap" rel="stylesheet">
-
-    <!-- UIkit CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.4.6/dist/css/uikit.min.css" />
-
-    <!-- UIkit JS -->
-    <script src="https://cdn.jsdelivr.net/npm/uikit@3.4.6/dist/js/uikit.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/uikit@3.4.6/dist/js/uikit-icons.min.js"></script>
-
   </head>
   <body>
     <nav class="navbar navbar-light bg-light">
@@ -69,41 +62,78 @@
     <h1 class="index-phrase">Take what you need. Give what you don’t.</h1>
     <div class="search__container">
       <input class="search__input" type="text" placeholder="search">
-    <!-- </div> -->
-    <!-- not responsive yet -->
-<div class="drop-it">
-  <ul id="main">
-    <li>category
-       <ul class="drop">
-        <div>
-        <li>clothes</li>
-        <li>furniture</li>
-        <li>kitchen stuff</li>
+        <div class="drop-it">
+          <ul id="main">
+            <li>category
+               <ul class="drop">
+                <div>
+                <li>clothes</li>
+                <li>furniture</li>
+                <li>kitchen stuff</li>
+                </div>
+              </ul>
+            </li>
+            <li>condition
+               <ul class="drop">
+                <div>
+                <li>new</li>
+                <li>used</li>
+                <li>used2</li>
+                </div>
+              </ul>
+            </li>
+            <li>location
+              <ul class="drop">
+                <div>
+                <li>Jing'an</li>
+                <li>Xuhui</li>
+                <li>Putuo</li>
+                <li>Pudong</li>
+                </div>
+              </ul>
+            </li>
+            <div id="marker"></div>
+          </ul>
         </div>
-      </ul>
-    </li>
-    <li>condition
-       <ul class="drop">
-        <div>
-        <li>new</li>
-        <li>used</li>
-        <li>used2</li>
+      </div>
+    </div>
+    <div class="cards">
+      <div class="item-card">
+        <div class="user">
+          <div class="picture"><img src="image/irina.jpg" alt="" class="profile-pic"></div>
+          <div class="username">Irina Penzina</div>
         </div>
-      </ul>
-    </li>
-    <li>location
-      <ul class="drop">
-        <div>
-        <li>Jing'an</li>
-        <li>Xuhui</li>
-        <li>Putuo</li>
-        <li>Pudong</li>
+        <img src="image/snowman.jpg" class="item-img"/>
+        <div class="item-info">
+          <div>
+            <h5>Snowman from Frozen</h5>
+            <p>I got this cute couple of years ago for Christmas. It's just sitting on my shelf collecting dust. Maybe you need him more then I do.</p>
+          </div>
+          <div class="tags">
+            <div><p>toy</p></div>
+            <div><p>used</p></div>
+            <div><p>Jing'an</p></div>
+          </div>
         </div>
-      </ul>
-    </li>
-    <div id="marker"></div>
-  </ul>
-</div>
-</div>
+      </div>
+      <div class="item-card">
+        <div class="user">
+          <div class="picture"><img src="image/irina.jpg" alt="" class="profile-pic"></div>
+          <div class="username">Irina Penzina</div>
+        </div>
+        <img src="image/sofa.jpg" class="item-img"/>
+        <div class="item-info">
+          <div>
+            <h5>Snowman from Frozen</h5>
+            <p>I got this cute couple of years ago for Christmas. It's just sitting on my shelf collecting dust. Maybe you need him more then I do.</p>
+          </div>
+          <div class="tags">
+            <div><p>toy</p></div>
+            <div><p>used</p></div>
+            <div><p>Jing'an</p></div>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>

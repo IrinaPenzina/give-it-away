@@ -55,7 +55,7 @@
 
 @media (min-width: 320px) and (max-width: 767px){
   .search__container {
-    top: -14px;
+    top: -4px;
   }
   .search__input {
     width: 83%;

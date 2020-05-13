@@ -1,0 +1,61 @@
+.cards {
+  margin-top: 10%;
+  margin-left: 30%;
+  width: 40%;
+}
+
+.item-card {
+  height: 330px;
+  overflow: hidden;
+  background: white;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  margin-bottom: 5%;
+}
+
+.item-card:hover {
+  cursor: pointer;
+}
+
+.item-img {
+  height: 153px;
+  width: 100%;
+  object-fit: contain;
+}
+
+.item-card h5 {
+  color: #2D132C;
+  font-size: 16px;
+  margin: 0;
+}
+
+.item-card p {
+  color: #2D132C;
+  font-size: 12px;
+  opacity: .7;
+}
+
+
+.user {
+  display: flex;
+  padding: 5px;
+}
+
+.profile-pic {
+  width: 30px;
+  border-radius: 50px;
+}
+
+.username {
+  margin-top: 9px;
+  margin-left: 5px;
+  color: #2D132C;
+}
+
+.item-info {
+  margin: 20px;
+}
+
+.tags {
+  display: flex;
+  justify-content: space-around;
+}
