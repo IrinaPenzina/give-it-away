@@ -1,6 +1,7 @@
 .cards {
   margin-left: 30%;
   width: 40%;
+  font-family: 'M PLUS 1p', sans-serif;
 }
 
 .item-card {
@@ -59,6 +60,7 @@
 .tags {
   display: flex;
   justify-content: space-around;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
 }
 
 .tags p {
