@@ -1,5 +1,4 @@
 .cards {
-  margin-top: 6%;
   margin-left: 30%;
   width: 40%;
 }
@@ -110,9 +109,6 @@
 
 
 @media (min-width: 320px) and (max-width: 767px){
-  .cards {
-    margin-top: 13%;
-  }
   .tags {
     display: none;
   }
