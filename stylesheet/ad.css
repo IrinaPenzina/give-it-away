@@ -1,0 +1,75 @@
+
+.advertising {
+  right: 3%;
+  top: 300px;
+  position: absolute;
+
+}
+
+.advertising-box-long {
+  margin-bottom: 50px;
+  cursor: pointer;
+}
+
+.advertising-lg {
+  height: 400px;
+  width: 250px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.advertising-box-square {
+  cursor: pointer;
+}
+
+.advertising-sq {
+  height: 150px;
+  width: 250px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+
+@media (min-width: 320px) and (max-width: 767px){
+  .advertising {
+    top: 250px;
+  }
+  .advertising-lg {
+    height: 184px;
+    width: 94px;
+    border-radius: 10px;
+  }
+  .advertising-sq {
+    height: 64px;
+    width: 94px;
+    border-radius: 10px;
+  }
+}
+
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .advertising {
+    top: 250px;
+  }
+  .advertising-lg {
+    height: 221px;
+    width: 151px;
+    border-radius: 10px;
+  }
+  .advertising-sq {
+    height: 96px;
+    width: 151px;
+    border-radius: 10px;
+  }
+
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .advertising {
+    right: 3%;
+    top: 250px;
+  }
+
+}
+
+
