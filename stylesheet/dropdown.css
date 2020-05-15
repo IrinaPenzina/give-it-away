@@ -1,3 +1,4 @@
+
 #main {
   position: relative;
   list-style: none;
@@ -8,7 +9,9 @@
   color: #512C96;
   display: inline-block;
   padding: 0;
-  /* margin: 10px auto; */
+  background-color: white;
+  z-index: 5;
+  /* margin: 10px auto;*/
 }
 #main li {
   font-size: 0.8rem;
@@ -21,9 +24,9 @@
 }
 
 .drop-it {
-  width: 53%;
   position: absolute;
-  margin-left: 24%
+  margin-left: 25%;
+  background-color: white;
 }
 
 li {
@@ -130,6 +133,11 @@ li {
     top: 43px;
     width: 65px;
   }
+
+  .drop-it {
+    top: 100%;
+  }
+
   #marker {
     top: 38px;
     width: 65px;
@@ -174,9 +182,14 @@ li {
 }
 
 @media (min-width: 768px) and (max-width: 992px) {
+  .drop-it {
+    margin-left: 5%;
+  }
 
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
-
+  .drop-it {
+    margin-left: 16%;
+  }
 }

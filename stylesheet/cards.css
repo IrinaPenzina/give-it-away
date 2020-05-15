@@ -2,6 +2,8 @@
   margin-left: 30%;
   width: 40%;
   font-family: 'M PLUS 1p', sans-serif;
+  padding-top: 21%;
+  z-index: -1;
 }
 
 .item-card {
@@ -32,6 +34,7 @@
   color: #2D132C;
   font-size: 12px;
   opacity: .7;
+  z-index: -1;
 }
 
 
@@ -67,9 +70,14 @@
   font-weight: bolder;
 }
 
-.tag {max-width: 58px;}
+.tag {
+  max-width: 58px;
+}
 
 .description {
+  z-index: 0;
+  margin-bottom: 5px;
+  margin-top: 5px;
   /* hide text if it more than N lines  */
   overflow: hidden;
   /* for set '...' in absolute position */
@@ -113,5 +121,21 @@
 @media (min-width: 320px) and (max-width: 767px){
   .tags {
     display: none;
+  }
+  .cards {
+    padding-top: 250px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .cards {
+    padding-top: 250px;
+    margin-left: 34%;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .cards {
+     padding-top: 250px;
   }
 }

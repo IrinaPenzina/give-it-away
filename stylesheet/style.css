@@ -1,7 +1,9 @@
-.navbar .navbar-light .bg-light {
+.top {
+  width: 100%;
   position: -webkit-sticky; /* Safari */
-  position: fixed !important;
+  position: fixed;
   top: 0;
+  z-index: 100;
 }
 
 #name {
@@ -72,14 +74,6 @@ a .mybtn{
   margin-top: 45px;
 }
 
-.index-phrase {
-  color: #512C96;
-  text-align: center;
-  font-weight: normal;
-  margin-top: 20px;
-  font-family: 'M PLUS 1p', sans-serif;
-}
-
 @media (min-width: 320px) and (max-width: 767px){
   .button-group {
     width: 40%;
@@ -99,11 +93,6 @@ a .mybtn{
   .name {
     margin-top: 28px;
   }
-  .index-phrase {
-    font-size: 18px;
-    font-weight: lighter;
-    margin-top: 23px;
-  }
 }
 
 @media (min-width: 768px) and (max-width: 992px) {
@@ -121,10 +110,6 @@ a .mybtn{
   .name {
     margin-top: 28px;
   }
-  .index-phrase {
-    font-size: 18px;
-    font-weight: lighter;
-  }
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
@@ -141,10 +126,6 @@ a .mybtn{
   }
   .name {
     margin-top: 28px;
-  }
-  .index-phrase {
-    font-size: 26px;
-    font-weight: lighter;
   }
 }
 
