@@ -1,8 +1,6 @@
 .drop-it {
-  /* position: fixed; */
   margin-left: 25%;
   background-color: white;
-  z-index: 200;
 }
 
 #main {
