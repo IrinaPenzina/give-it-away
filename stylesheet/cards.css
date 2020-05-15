@@ -3,7 +3,6 @@
   width: 40%;
   font-family: 'M PLUS 1p', sans-serif;
   padding-top: 21%;
-  z-index: -1;
 }
 
 .item-card {
@@ -19,7 +18,7 @@
 }
 
 .item-img {
- height: 200px;
+  height: 200px;
   width: 100%;
   object-fit: cover;
 }
@@ -34,7 +33,6 @@
   color: #2D132C;
   font-size: 12px;
   opacity: .7;
-  z-index: -1;
 }
 
 
@@ -75,7 +73,6 @@
 }
 
 .description {
-  z-index: 0;
   margin-bottom: 5px;
   margin-top: 5px;
   /* hide text if it more than N lines  */

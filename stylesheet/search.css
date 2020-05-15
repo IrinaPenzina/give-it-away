@@ -1,6 +1,6 @@
 
 .search__container {
-        top: 80px;
+        padding-top: 80px;
         margin-left: 334px;
         width: 53%;
         position: fixed;
@@ -66,7 +66,7 @@
       .search__container {
         margin-left: 45px;
         width: 76%;
-        top: 91px;
+        padding-top: 91px;
       }
   }
 
@@ -86,6 +86,7 @@
       .search__container {
         margin-left: 241px;
         width: 53%;
+        padding-top: 85px;
       }
 
       .index-phrase {

@@ -1,3 +1,9 @@
+.drop-it {
+  /* position: fixed; */
+  margin-left: 25%;
+  background-color: white;
+  z-index: 200;
+}
 
 #main {
   position: relative;
@@ -10,7 +16,6 @@
   display: inline-block;
   padding: 0;
   background-color: white;
-  z-index: 5;
   /* margin: 10px auto;*/
 }
 #main li {
@@ -19,14 +24,7 @@
   position: relative;
   padding: 15px 20px;
   cursor: pointer;
-  z-index: 5;
   min-width: 120px;
-}
-
-.drop-it {
-  position: absolute;
-  margin-left: 25%;
-  background-color: white;
 }
 
 li {
