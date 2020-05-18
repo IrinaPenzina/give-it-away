@@ -65,15 +65,20 @@
   left: 0;
 }
 
-.give {
+#give {
   background: #F3EA7C;
   color: #512C96;
   font-weight: normal;
   border: #F3EA7C;
   margin-top: 5px;
+  width: 80%;
+  box-sizing: border-box;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.25);
+  border-radius: 7px;
+  text-align: center;
 }
 
-.give:hover {
+#give:hover {
   background: #512C96;
   color: #F3EA7C;
 }
@@ -82,13 +87,14 @@
 @media only screen
 and (min-device-width : 360px) and (max-device-width : 640px)
 and (orientation : portrait) {
-    .main-nav a {
+  .main-nav a {
     padding: 5px 0;
     font-size: 10px;
   }
-  .give {
+  #give {
     font-size: 10px;
     text-align: center;
+    width: 100%;
   }
   .nav-wrap {
     top: 30%;
@@ -96,6 +102,25 @@ and (orientation : portrait) {
   }
 }
 
+/*iphone 5/SE portrait*/
+@media only screen
+and (min-device-width : 320px) and (max-device-width : 568px)
+and (orientation : portrait) {
+    .main-nav a {
+    padding: 5px 0;
+    font-size: 10px;
+  }
+  #give {
+    font-size: 10px;
+    text-align: center;
+    width: 100%;
+  }
+  .nav-wrap {
+    top: 35%;
+    left: 6%;
+    width: 13%;
+  }
+}
 
 /*iPhone 6, 7, & 8 portrait*/
 @media only screen
@@ -105,9 +130,10 @@ and (orientation : portrait) {
     padding: 5px 0;
     font-size: 10px;
   }
-  .give {
+  #give {
     font-size: 10px;
     text-align: center;
+    width: 100%;
   }
   .nav-wrap {
     top: 30%;
@@ -122,9 +148,10 @@ and (orientation : landscape) {
     padding: 5px 0;
     font-size: 10px;
   }
-  .give {
+  #give {
     font-size: 10px;
     text-align: center;
+    width: 100%;
   }
   .nav-wrap {
     top: 49%;
@@ -156,9 +183,10 @@ and (-webkit-device-pixel-ratio : 3) and (orientation : portrait) {
     padding: 5px 0;
     font-size: 10px;
   }
-  .give {
+  #give {
     font-size: 10px;
     text-align: center;
+    width: 100%;
   }
   .nav-wrap {
     top: 25%;

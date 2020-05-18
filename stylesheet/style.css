@@ -25,15 +25,15 @@ p, h1, h2, h3 {
 }
 
 .mybtn1 {
-  flex-grow: 4;
+   flex-grow: 4;
 }
 
 .mybtn2 {
   flex-grow: 4;
 }
 
-.mybtn {
-  padding: 7px 25px;
+#mybtn {
+  width: 80%;
   background: #512C96;
   border: 1px solid #512C96;
   box-sizing: border-box;
@@ -52,7 +52,7 @@ a .mybtn{
   text-decoration: none;
 }
 
-.mybtn:hover {
+#mybtn:hover {
   text-decoration: none;
   color: #ff0;
   box-shadow: 2px 3px 3px rgba(255, 204, 0, 0.5);
@@ -74,13 +74,44 @@ a .mybtn{
   margin-top: 45px;
 }
 
+
+/*iphone 5/SE portrait*/
+@media only screen
+and (min-device-width : 320px) and (max-device-width : 568px)
+and (orientation : portrait) {
+  .button-group {
+    width: 59%;
+    margin-top: -115px;
+    margin-left: 40%;
+  }
+  #mybtn{
+    font-size: 13px;
+    width: 75%;
+  }
+  .mynav {
+    margin-left: 0%;
+  }
+  .note {
+    height: 95px;
+  }
+  #name {
+    font-size: 17px;
+    padding-left: 16px;
+    font-weight: lighter;
+  }
+  .name {
+    margin-top: 28px;
+  }
+
+}
+
 /*Galaxy S5 portrait*/
 @media only screen
 and (min-device-width : 360px) and (max-device-width : 640px)
 and (orientation : portrait) {
    .button-group {
-    width: 42%;
-    margin-top: -34px;
+    width: 63%;
+    margin-top: -133px;
   }
   .mybtn {
     padding: 6px 9px;
@@ -103,8 +134,8 @@ and (orientation : portrait) {
 and (min-device-width : 375px) and (max-device-width : 667px)
 and (orientation : portrait) {
   .button-group {
-    width: 42%;
-    margin-top: -34px;
+    width: 54%;
+    margin-top: -127px;
   }
   .mybtn {
     padding: 6px 9px;
@@ -174,8 +205,9 @@ and (orientation : landscape) {
 and (min-device-width : 375px) and (max-device-width : 812px)
 and (-webkit-device-pixel-ratio : 3) and (orientation : portrait) {
   .button-group {
-    width: 42%;
-    margin-top: -34px;
+    width: 54%;
+    margin-top: -120px;
+    /* margin-right: -6%; */
   }
   .note {
     height: 101px;

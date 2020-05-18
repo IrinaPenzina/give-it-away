@@ -115,6 +115,21 @@
   background: white;
 }
 
+/*iphone 5/SE portrait*/
+@media only screen
+and (min-device-width : 320px) and (max-device-width : 568px)
+and (orientation : portrait) {
+    .tags {
+    display: none;
+  }
+  .cards {
+    padding-top: 250px;
+  }
+  .description {
+    font-size: 12px;
+  }
+}
+
 /*Galaxy S5 portrait*/
 @media only screen
 and (min-device-width : 360px) and (max-device-width : 640px)
