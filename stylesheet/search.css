@@ -1,11 +1,10 @@
 
 .search__container {
         padding-top: 80px;
-        margin-left: 334px;
-        width: 53%;
+        width: 43%;
         position: fixed;
         background-color: #ffffff;
-        z-index: 200 !important;
+        z-index: 200;
     }
 
     .index-phrase {
@@ -14,7 +13,6 @@
         font-weight: lighter;
         top: 10%;
         font-family: 'M PLUS 1p', sans-serif;
-        left: 23%;
     }
 
 .search__input {
@@ -56,42 +54,147 @@
         }
 
 
-  @media (min-width: 320px) and (max-width: 767px){
+/*iPhone 6, 7, & 8 portrait*/
+@media only screen
+and (min-device-width : 375px) and (max-device-width : 667px)
+and (orientation : portrait) {
       .index-phrase {
         font-size: 18px;
         font-weight: lighter;
         top: 13%;
-        left: 5%;
       }
       .search__container {
-        margin-left: 45px;
-        width: 76%;
+        width: 74%;
+        right: 47px;
         padding-top: 91px;
       }
   }
 
-  @media (min-width: 768px) and (max-width: 992px) {
+/*iPhone 6, 7, & 8 landscape*/
+@media only screen
+and (min-device-width : 375px) and (max-device-width : 667px)
+and (orientation : landscape) {
+      .index-phrase {
+        font-size: 18px;
+        font-weight: lighter;
+        top: 13%;
+      }
+      .search__container {
+        width: 63%;
+        right: 20%;
+        padding-top: 91px;
+      }
+  }
+
+/*iPhone 6, 7, & 8 Plus portrait*/
+@media only screen
+and (min-device-width : 414px) and (max-device-width : 736px)
+and (orientation : portrait) {
+
+}
+
+
+/*iPhone 6, 7, & 8 Plus landscape*/
+@media only screen
+and (min-device-width : 414px) and (max-device-width : 736px)
+and (orientation : landscape) {
+    .index-phrase {
+      font-size: 18px;
+      font-weight: lighter;
+    }
+    .search__container {
+      width: 53%;
+      right: 19%;
+    }
+
+}
+
+
+/*iPhone X portrait*/
+@media only screen
+and (min-device-width : 375px) and (max-device-width : 812px)
+and (-webkit-device-pixel-ratio : 3) and (orientation : portrait) {
    .index-phrase {
       font-size: 18px;
       font-weight: lighter;
-      left: 28%;
     }
     .search__container {
-      margin-left: 211px;
-      width: 53%;
+      width: 84%;
+      right: 5%;
     }
   }
 
-  @media (min-width: 992px) and (max-width: 1200px) {
+/*iPhone X landscape*/
+@media only screen
+and (min-device-width : 375px) and (max-device-width : 812px)
+and (-webkit-device-pixel-ratio : 3) and (orientation : landscape) {
+
+}
+
+/*iPad portrait*/
+@media only screen
+and (min-device-width : 768px) and (max-device-width : 1024px)
+and (orientation : portrait){
       .search__container {
-        margin-left: 241px;
         width: 53%;
         padding-top: 85px;
       }
 
       .index-phrase {
-        font-size: 26px;
+        font-size: 25px;
         font-weight: lighter;
         top: 100px;
       }
   }
+
+  /*iPad landscape*/
+@media only screen
+and (min-device-width : 768px) and (max-device-width : 1024px)
+and (orientation : landscape){
+  .search__container {
+    width: 47%;
+    padding-top: 85px;
+    right: 25%;
+  }
+
+  .index-phrase {
+    font-size: 25px;
+    font-weight: lighter;
+    top: 100px;
+  }
+}
+
+/*iPad PRO portrait*/
+@media only screen
+and (min-device-width: 1024px) and (max-device-width: 1366px)
+and (orientation : portrait) {
+  .search__container {
+    width: 53%;
+    padding-top: 85px;
+  }
+
+  .index-phrase {
+    font-size: 25px;
+    font-weight: lighter;
+    top: 100px;
+  }
+}
+
+/*iPad PRO landscape*/
+@media only screen
+and (min-device-width: 1024px) and (max-device-width: 1366px)
+and (orientation : landscape) {
+  .search__container {
+    width: 47%;
+    padding-top: 72px;
+  }
+
+  .index-phrase {
+    font-size: 25px;
+    font-weight: lighter;
+    top: 100px;
+  }
+}
+
+
+

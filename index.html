@@ -65,104 +65,116 @@
         </div>
       </nav>
     </div>
-   <!--  search with dropdown -->
-    <div class="search__container">
-      <h1 class="index-phrase">Take what you need. Give what you don’t.</h1>
-      <input class="search__input" type="text" placeholder="search">
-        <div class="drop-it">
-          <ul id="main">
-            <li>category
-               <ul class="drop">
-                <div>
-                <li>clothes</li>
-                <li>furniture</li>
-                <li>kitchen stuff</li>
-                </div>
+    <div class="container">
+      <div class="row">
+        <!-- sidebar -->
+        <div class="col">
+          <div class="nav-wrap">
+            <nav class="main-nav" role="navigation">
+              <!-- this part of menu opens after login/singin -->
+              <ul class="unstyled list-hover-slide">
+                <li><a href="#">about</a></li>
+                <li><a href="#">activity</a></li>
+                <li><a href="#">city</a></li>
+                <li><a href="#">account</a></li>
               </ul>
-            </li>
-            <li>condition
-               <ul class="drop">
-                <div>
-                <li>new</li>
-                <li>used</li>
-                <li>used<sup>2</sup></li>
+             <!--  everyone can see this -->
+              <div class="mybtn give">Give</div>
+            </nav>
+          </div>
+        </div>
+        <!--  search with dropdown -->
+        <div class="col-6">
+          <div class="search__container">
+            <h1 class="index-phrase">Take what you need. Give what you don’t.</h1>
+            <input class="search__input" type="text" placeholder="search">
+              <div class="drop-it">
+                <ul id="main">
+                  <li>category
+                     <ul class="drop">
+                      <div>
+                      <li>clothes</li>
+                      <li>furniture</li>
+                      <li>kitchen stuff</li>
+                      </div>
+                    </ul>
+                  </li>
+                  <li>condition
+                     <ul class="drop">
+                      <div>
+                      <li>new</li>
+                      <li>used</li>
+                      <li>used<sup>2</sup></li>
+                      </div>
+                    </ul>
+                  </li>
+                  <li>location
+                    <ul class="drop">
+                      <div>
+                      <li>Jing'an</li>
+                      <li>Xuhui</li>
+                      <li>Putuo</li>
+                      <li>Pudong</li>
+                      </div>
+                    </ul>
+                  </li>
+                  <div id="marker"></div>
+                </ul>
+              </div>
+            </div>
+            <!-- cards with tags for items people are going to post to give them away -->
+            <div class="cards">
+              <div class="item-card">
+                <div class="user">
+                  <div class="picture"><img src="image/irina.jpg" alt="" class="profile-pic"></div>
+                  <div class="username">Irina Penzina</div>
                 </div>
-              </ul>
-            </li>
-            <li>location
-              <ul class="drop">
-                <div>
-                <li>Jing'an</li>
-                <li>Xuhui</li>
-                <li>Putuo</li>
-                <li>Pudong</li>
+                <img src="image/snowman.jpg" class="item-img"/>
+                <div class="item-info">
+                  <div class="description">
+                    <h5>Snowman from Frozen</h5>
+                    <p>I got this cute couple of years ago for Christmas. It's just sitting on my shelf collecting dust. Maybe you need him more then I do. He is just of dry clean. All white and new waiting for your warm hugs.</p>
+                  </div>
+                  <div class="tags">
+                    <div class="tag"><p>toy</p></div>
+                    <div class="tag"><p>used</p></div>
+                    <div class="tag"><p>Jing'an</p></div>
+                  </div>
                 </div>
-              </ul>
-            </li>
-            <div id="marker"></div>
-          </ul>
-        </div>
-      </div>
-    </div>
-    <!-- sidebar -->
-    <div class="nav-wrap">
-      <nav class="main-nav" role="navigation">
-        <!-- this part of menu opens after login/singin -->
-        <ul class="unstyled list-hover-slide">
-          <li><a href="#">about</a></li>
-          <li><a href="#">activity</a></li>
-          <li><a href="#">city</a></li>
-          <li><a href="#">account</a></li>
-        </ul>
-       <!--  everyone can see this -->
-        <div class="mybtn give">Give</div>
-      </nav>
-    </div>
-    <!-- advertising for us to become rich or very rich-->
-    <div class="advertising">
-      <div class="advertising-box-long">
-        <img class="advertising-lg" src="image/15-off.jpg" alt="">
-      </div>
-      <div class="advertising-box-square">
-        <img class="advertising-sq" src="image/be-recycler.jpg" alt="">
-      </div>
-    </div>
-    <!-- cards with tags for items people are going to post to give them away -->
-    <div class="cards">
-      <div class="item-card">
-        <div class="user">
-          <div class="picture"><img src="image/irina.jpg" alt="" class="profile-pic"></div>
-          <div class="username">Irina Penzina</div>
-        </div>
-        <img src="image/snowman.jpg" class="item-img"/>
-        <div class="item-info">
-          <div class="description">
-            <h5>Snowman from Frozen</h5>
-            <p>I got this cute couple of years ago for Christmas. It's just sitting on my shelf collecting dust. Maybe you need him more then I do. He is just of dry clean. All white and new waiting for your warm hugs.</p>
+              </div>
+              <div class="item-card">
+                <div class="user">
+                  <div class="picture"><img src="image/irina.jpg" alt="" class="profile-pic"></div>
+                  <div class="username">Irina Penzina</div>
+                </div>
+                <img src="image/sofa.jpg" class="item-img"/>
+                <div class="item-info">
+                  <div class="description">
+                    <h5>Used sofa with a hole</h5>
+                    <p>It's a very old sofa of  mine. I love it so much because so many good things happened to me while I owned. But it looks like it's time for us to move on. You can just change the cover and you are fine.</p>
+                  </div>
+                  <div class="tags">
+                    <div class="tag"><p>furniture</p></div>
+                    <div class="tag"><p>used<sup>2</sup></p></div>
+                    <div class="tag"><p>Pudong</p></div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="tags">
-            <div class="tag"><p>toy</p></div>
-            <div class="tag"><p>used</p></div>
-            <div class="tag"><p>Jing'an</p></div>
+        <div class="col">
+          <div  class="advertising">
+            <img src="image/white.jpg" alt="" class="white">
+            <div class="advertising-box-long">
+              <img class="advertising-lg" src="image/15-off.jpg" alt="">
+            </div>
+            <div class="advertising-box-square">
+              <img class="advertising-sq" src="image/be-recycler.jpg" alt="">
+            </div>
           </div>
         </div>
-      </div>
-      <div class="item-card">
-        <div class="user">
-          <div class="picture"><img src="image/irina.jpg" alt="" class="profile-pic"></div>
-          <div class="username">Irina Penzina</div>
         </div>
-        <img src="image/sofa.jpg" class="item-img"/>
-        <div class="item-info">
-          <div class="description">
-            <h5>Used sofa with a hole</h5>
-            <p>It's a very old sofa of  mine. I love it so much because so many good things happened to me while I owned. But it looks like it's time for us to move on. You can just change the cover and you are fine.</p>
-          </div>
-          <div class="tags">
-            <div class="tag"><p>furniture</p></div>
-            <div class="tag"><p>used<sup>2</sup></p></div>
-            <div class="tag"><p>Pudong</p></div>
-          </div>
+        </div>
         </div>
       </div>
     </div>

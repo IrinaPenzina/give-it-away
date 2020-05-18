@@ -1,8 +1,8 @@
 .cards {
-  margin-left: 30%;
-  width: 40%;
+  /* margin-left: 30%; */
+  /* width: 40%; */
   font-family: 'M PLUS 1p', sans-serif;
-  padding-top: 21%;
+  padding-top: 305px;
 }
 
 .item-card {
@@ -115,8 +115,40 @@
   background: white;
 }
 
+/*iPhone 6, 7, & 8*/
+@media only screen
+and (min-device-width : 375px) and (max-device-width : 667px) {
+  .tags {
+    display: none;
+  }
+  .cards {
+    padding-top: 250px;
+  }
+  .description {
+    font-size: 12px;
+  }
+}
 
-@media (min-width: 320px) and (max-width: 767px){
+/*iPhone 6, 7, & 8 Plus portrait*/
+@media only screen
+and (min-device-width : 414px) and (max-device-width : 736px)
+and (orientation : portrait) {
+
+}
+
+
+/*iPhone 6, 7, & 8 Plus landscape*/
+@media only screen
+and (min-device-width : 414px) and (max-device-width : 736px)
+and (orientation : landscape) {
+
+}
+
+
+/*iPhone X */
+@media only screen
+and (min-device-width : 375px) and (max-device-width : 812px)
+and (-webkit-device-pixel-ratio : 3) {
   .tags {
     display: none;
   }
@@ -125,14 +157,36 @@
   }
 }
 
-@media (min-width: 768px) and (max-width: 992px) {
+/*iPad portrait*/
+@media only screen
+and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
   .cards {
-    padding-top: 250px;
-    margin-left: 34%;
+    padding-top: 268px;
   }
 }
 
-@media (min-width: 992px) and (max-width: 1200px) {
+/*iPad landscape*/
+@media only screen
+and (min-device-width : 768px) and (max-device-width : 1024px)
+and (orientation : landscape){
+  .cards {
+    padding-top: 268px;
+  }
+}
+
+/*iPad PRO portrait*/
+@media only screen
+and (min-device-width: 1024px) and (max-device-width: 1366px)
+and (orientation : portrait) {
+  .cards {
+     padding-top: 250px;
+  }
+}
+
+/*iPad PRO landscape*/
+@media only screen
+and (min-device-width: 1024px) and (max-device-width: 1366px)
+and (orientation : landscape) {
   .cards {
      padding-top: 250px;
   }

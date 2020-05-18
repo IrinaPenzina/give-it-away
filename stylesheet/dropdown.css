@@ -1,5 +1,5 @@
 .drop-it {
-  margin-left: 25%;
+  margin-left: 15%;
   background-color: white;
 }
 
@@ -132,6 +132,7 @@ li {
 
   .drop-it {
     top: 100%;
+    margin-left: 22%;
   }
 
   #marker {
@@ -186,6 +187,6 @@ li {
 
 @media (min-width: 992px) and (max-width: 1200px) {
   .drop-it {
-    margin-left: 16%;
+    margin-left: 11%;
   }
 }

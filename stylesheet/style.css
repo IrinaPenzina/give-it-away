@@ -74,7 +74,35 @@ a .mybtn{
   margin-top: 45px;
 }
 
-@media (min-width: 320px) and (max-width: 767px){
+
+/*iPhone 6, 7, & 8 portrait*/
+@media only screen
+and (min-device-width : 375px) and (max-device-width : 667px)
+and (orientation : portrait) {
+  .button-group {
+    width: 42%;
+    margin-top: -34px;
+  }
+  .mybtn {
+    padding: 6px 9px;
+  }
+  .note {
+    height: 102px;
+  }
+  #name {
+    font-size: 19px;
+    padding-left: 16px;
+    font-weight: lighter;
+  }
+  .name {
+    margin-top: 28px;
+  }
+}
+
+/*iPhone 6, 7, & 8 landscape*/
+@media only screen
+and (min-device-width : 375px) and (max-device-width : 667px)
+and (orientation : landscape) {
   .button-group {
     width: 40%;
     margin-top: -30px;
@@ -95,7 +123,74 @@ a .mybtn{
   }
 }
 
-@media (min-width: 768px) and (max-width: 992px) {
+/*iPhone 6, 7, & 8 Plus portrait*/
+@media only screen
+and (min-device-width : 414px) and (max-device-width : 736px)
+and (orientation : portrait) {
+  .button-group {
+    width: 40%;
+    margin-top: -30px;
+  }
+
+}
+
+
+/*iPhone 6, 7, & 8 Plus landscape*/
+@media only screen
+and (min-device-width : 414px) and (max-device-width : 736px)
+and (orientation : landscape) {
+  .button-group {
+    width: 40%;
+    margin-top: -30px;
+  }
+
+}
+
+/*iPhone X portrait*/
+@media only screen
+and (min-device-width : 375px) and (max-device-width : 812px)
+and (-webkit-device-pixel-ratio : 3) and (orientation : portrait) {
+  .button-group {
+    width: 42%;
+    margin-top: -34px;
+  }
+  .note {
+    height: 101px;
+  }
+  #name {
+    font-size: 18px;
+    padding-left: 15px;
+  }
+  .name {
+    margin-top: 28px;
+  }
+}
+
+/*iPhone X landscape*/
+@media only screen
+and (min-device-width : 375px) and (max-device-width : 812px)
+and (-webkit-device-pixel-ratio : 3) and (orientation : landscape) {
+  .button-group {
+    width: 28%;
+    margin-top: -69px;
+  }
+  .note {
+    height: 140px;
+  }
+  #name {
+    font-size: 23px;
+    padding-left: 31px;
+  }
+  .name {
+    margin-top: 28px;
+  }
+}
+
+
+/*iPad portrait*/
+@media only screen
+and (min-device-width : 768px) and (max-device-width : 1024px)
+and (orientation : portrait){
   .button-group {
     width: 26%;
     margin-top: -69px;
@@ -112,7 +207,50 @@ a .mybtn{
   }
 }
 
-@media (min-width: 992px) and (max-width: 1200px) {
+/*iPad landscape*/
+@media only screen
+and (min-device-width : 768px) and (max-device-width : 1024px)
+and (orientation : landscape){
+  .button-group {
+    width: 26%;
+    margin-top: -69px;
+  }
+  .note {
+    height: 140px;
+  }
+  #name {
+    font-size: 23px;
+    padding-left: 31px;
+  }
+  .name {
+    margin-top: 28px;
+  }
+}
+
+/*iPad PRO portrait*/
+@media only screen
+and (min-device-width: 1024px) and (max-device-width: 1366px)
+and (orientation : portrait) {
+    .button-group {
+    width: 26%;
+    margin-top: -69px;
+  }
+  .note {
+    height: 140px;
+  }
+  #name {
+    font-size: 23px;
+    padding-left: 31px;
+  }
+  .name {
+    margin-top: 28px;
+  }
+}
+
+/*iPad PRO andscape*/
+@media only screen
+and (min-device-width: 1024px) and (max-device-width: 1366px)
+and (orientation : landscape) {
   .button-group {
     width: 26%;
     margin-top: -69px;
