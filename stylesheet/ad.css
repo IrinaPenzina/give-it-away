@@ -37,10 +37,13 @@
   border-radius: 20px;
 }
 
+/*Galaxy S5 portrait*/
 @media only screen
-and (max-device-width : 375px) {
+and (min-device-width : 360px) and (max-device-width : 640px)
+and (orientation : portrait) {
   .advertising {
     top: 250px;
+    right: 7%;
   }
   .advertising-lg {
     height: 173px;
@@ -53,7 +56,8 @@ and (max-device-width : 375px) {
     border-radius: 10px;
   }
     .white {
-    height: 63.1%;
+    height: 62.1%;
+    right: 0;
   }
 }
 
@@ -236,7 +240,7 @@ and (orientation : portrait) {
 and (min-device-width: 1024px) and (max-device-width: 1366px)
 and (orientation : landscape) {
   .advertising{
-    right: 3%;
+    right: 3%
     top: 250px;
   }
   .advertising-lg {

@@ -74,6 +74,29 @@ a .mybtn{
   margin-top: 45px;
 }
 
+/*Galaxy S5 portrait*/
+@media only screen
+and (min-device-width : 360px) and (max-device-width : 640px)
+and (orientation : portrait) {
+   .button-group {
+    width: 42%;
+    margin-top: -34px;
+  }
+  .mybtn {
+    padding: 6px 9px;
+  }
+  .note {
+    height: 102px;
+  }
+  #name {
+    font-size: 19px;
+    padding-left: 16px;
+    font-weight: lighter;
+  }
+  .name {
+    margin-top: 28px;
+  }
+}
 
 /*iPhone 6, 7, & 8 portrait*/
 @media only screen

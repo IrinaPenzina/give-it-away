@@ -53,6 +53,21 @@
             background-position: 100% center;
         }
 
+/*Galaxy S5 portrait*/
+@media only screen
+and (min-device-width : 360px) and (max-device-width : 640px)
+and (orientation : portrait) {
+ .index-phrase {
+    font-size: 18px;
+    font-weight: lighter;
+    top: 13%;
+  }
+  .search__container {
+    width: 74%;
+    right: 47px;
+    padding-top: 91px;
+  }
+}
 
 /*iPhone 6, 7, & 8 portrait*/
 @media only screen
