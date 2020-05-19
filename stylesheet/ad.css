@@ -135,14 +135,14 @@ and (orientation : landscape) {
 /*iPhone 6, 7, & 8 Plus portrait*/
 @media only screen
 and (min-device-width : 414px) and (max-device-width : 736px)
-and (orientation : portrait) {
+and and (-webkit-device-pixel-ratio : 3) and (orientation : portrait) {
 
 }
 
 /*iPhone 6, 7, & 8 Plus landscape*/
 @media only screen
 and (min-device-width : 414px) and (max-device-width : 736px)
-and (orientation : landscape) {
+and and (-webkit-device-pixel-ratio : 3) and (orientation : landscape) {
    .white {
     height: 107%;
   }

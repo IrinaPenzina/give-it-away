@@ -8,10 +8,10 @@
 
 #name {
   color: #512C96;
-  padding-left: 30%;
+  padding-left: 19%;
   font-family: 'M PLUS 1p', sans-serif;
   font-family: 'Indie Flower', cursive;
-  font-size: 30px;
+  font-size: 35px;
 }
 
 p, h1, h2, h3 {
@@ -85,8 +85,8 @@ and (orientation : portrait) {
     margin-left: 40%;
   }
   #mybtn{
-    font-size: 13px;
-    width: 75%;
+    font-size:10px;
+    width: 67%;
   }
   .mynav {
     margin-left: 0%;
@@ -110,8 +110,8 @@ and (orientation : portrait) {
 and (min-device-width : 360px) and (max-device-width : 640px)
 and (orientation : portrait) {
    .button-group {
-    width: 63%;
-    margin-top: -133px;
+    width: 52%;
+    margin-top: -34px;
   }
   .mybtn {
     padding: 6px 9px;
@@ -134,8 +134,8 @@ and (orientation : portrait) {
 and (min-device-width : 375px) and (max-device-width : 667px)
 and (orientation : portrait) {
   .button-group {
-    width: 54%;
-    margin-top: -127px;
+    width: 64%;
+    margin-top: -124px;
   }
   .mybtn {
     padding: 6px 9px;
@@ -182,8 +182,8 @@ and (orientation : landscape) {
 and (min-device-width : 414px) and (max-device-width : 736px)
 and (orientation : portrait) {
   .button-group {
-    width: 40%;
-    margin-top: -30px;
+    width: 64%;
+    margin-top: -124px;
   }
 
 }
@@ -205,9 +205,8 @@ and (orientation : landscape) {
 and (min-device-width : 375px) and (max-device-width : 812px)
 and (-webkit-device-pixel-ratio : 3) and (orientation : portrait) {
   .button-group {
-    width: 54%;
-    margin-top: -120px;
-    /* margin-right: -6%; */
+    width: 56%;
+    margin-top: -121px;
   }
   .note {
     height: 101px;
