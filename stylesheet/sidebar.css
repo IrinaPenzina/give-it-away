@@ -5,7 +5,7 @@
 .nav-wrap {
   top: 32%;
   width: 10%;
-  /* margin-left: 10%; */
+  margin-left: 3%;
   position: fixed;
   z-index: 300;
 }
@@ -136,7 +136,7 @@ and (orientation : portrait) {
     width: 100%;
   }
   .nav-wrap {
-    top: 30%;
+    top: 27%;
   }
 }
 
@@ -171,7 +171,7 @@ and (orientation : portrait) {
 and (min-device-width : 414px) and (max-device-width : 736px)
 and (orientation : landscape) {
     .nav-wrap {
-    top: 27%;
+    top: 53%;
   }
 }
 
@@ -189,8 +189,8 @@ and (-webkit-device-pixel-ratio : 3) and (orientation : portrait) {
     width: 100%;
   }
   .nav-wrap {
-    top: 25%;
-    left: 9%;
+    top: 24%;
+    left: 6%;
   }
 }
 
@@ -199,8 +199,8 @@ and (-webkit-device-pixel-ratio : 3) and (orientation : portrait) {
 and (min-device-width : 375px) and (max-device-width : 812px)
 and (-webkit-device-pixel-ratio : 3) and (orientation : landscape) {
   .nav-wrap {
-    top: 40%;
-    left: 13%;
+    top: 46%;
+    left: 10%;
   }
 }
 

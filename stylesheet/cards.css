@@ -1,6 +1,5 @@
 .cards {
-  /* margin-left: 30%; */
-  /* width: 40%; */
+  margin-left: 4%;
   font-family: 'M PLUS 1p', sans-serif;
   padding-top: 305px;
 }
@@ -119,7 +118,7 @@
 @media only screen
 and (min-device-width : 320px) and (max-device-width : 568px)
 and (orientation : portrait) {
-    .tags {
+  .tags {
     display: none;
   }
   .cards {
@@ -209,7 +208,7 @@ and (orientation : landscape){
 and (min-device-width: 1024px) and (max-device-width: 1366px)
 and (orientation : portrait) {
   .cards {
-     padding-top: 250px;
+     padding-top: 267px;
   }
 }
 

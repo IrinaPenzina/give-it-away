@@ -132,7 +132,7 @@ li {
 
   .drop-it {
     top: 100%;
-    margin-left: 22%;
+    margin-left: 2%;
   }
 
   #marker {
@@ -180,7 +180,7 @@ li {
 
 @media (min-width: 768px) and (max-width: 992px) {
   .drop-it {
-    margin-left: 5%;
+    margin-left: 0%;
   }
 
 }

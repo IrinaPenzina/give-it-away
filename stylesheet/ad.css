@@ -33,7 +33,7 @@
 
 .advertising-sq {
   height: 150px;
-  width: 250px;
+  width: 210px;
   object-fit: cover;
   border-radius: 20px;
 }
@@ -56,10 +56,6 @@ and (orientation : portrait) {
     width: 80px;
     border-radius: 10px;
   }
-    .white {
-    height: 62.1%;
-    right: 0;
-  }
 }
 
 /*Galaxy S5 portrait*/
@@ -79,10 +75,6 @@ and (orientation : portrait) {
     height: 54px;
     width: 90px;
     border-radius: 10px;
-  }
-    .white {
-    height: 62.1%;
-    right: 0;
   }
 }
 
@@ -104,10 +96,6 @@ and (orientation : portrait) {
     width: 90px;
     border-radius: 10px;
   }
-    .white {
-    height: 59.1%;
-    right: 0;
-  }
 }
 
 /*iPhone 6, 7, & 8 landscape*/
@@ -127,9 +115,6 @@ and (orientation : landscape) {
     width: 120px;
     border-radius: 10px;
   }
-  .white {
-    height: 107%;
-  }
 }
 
 /*iPhone 6, 7, & 8 Plus portrait*/
@@ -143,9 +128,6 @@ and and (-webkit-device-pixel-ratio : 3) and (orientation : portrait) {
 @media only screen
 and (min-device-width : 414px) and (max-device-width : 736px)
 and and (-webkit-device-pixel-ratio : 3) and (orientation : landscape) {
-   .white {
-    height: 107%;
-  }
 }
 
 
@@ -167,10 +149,6 @@ and (-webkit-device-pixel-ratio : 3) and (orientation : portrait) {
     width: 94px;
     border-radius: 10px;
   }
-  .white {
-    height: 49%;
-    right: 0px;
-  }
 }
 
 /*iPhone X landscape*/
@@ -190,10 +168,6 @@ and (-webkit-device-pixel-ratio : 3) and (orientation : landscape) {
     width: 94px;
     border-radius: 10px;
   }
-  .white {
-    height: 108.4%;
-  }
-
 }
 
 /*iPad portrait*/
@@ -212,9 +186,6 @@ and (orientation : portrait){
     height: 96px;
     width: 145px;
     border-radius: 10px;
-  }
-    .white {
-    height: 35%;
   }
 }
 
@@ -255,9 +226,6 @@ and (orientation : portrait) {
     width: 151px;
     border-radius: 10px;
   }
-  .white {
-    height: 28%;
-  }
 }
 
 /*iPad PRO andscape*/
@@ -265,7 +233,7 @@ and (orientation : portrait) {
 and (min-device-width: 1024px) and (max-device-width: 1366px)
 and (orientation : landscape) {
   .advertising{
-    right: 3%
+    right: 3%;
     top: 250px;
   }
   .advertising-lg {
@@ -277,9 +245,6 @@ and (orientation : landscape) {
     height: 120px;
     width: 170px;
     border-radius: 10px;
-  }
-  .white {
-    height: 28%;
   }
 }
 
