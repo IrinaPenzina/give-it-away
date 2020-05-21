@@ -49,11 +49,16 @@ li {
   transition: all 0.5s 0.1s;
   position: relative;
 }
+
 .drop li {
   display: block;
   padding: 0;
   width: 100%;
   background: #F3EA7C !important;
+}
+
+.drop li:hover {
+  font-weight: bolder;
 }
 
 #marker {
