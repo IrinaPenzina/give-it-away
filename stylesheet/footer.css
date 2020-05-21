@@ -5,7 +5,8 @@ footer {
 
 footer .footer-heading {
   font-size: 18px;
-  font-weight: bold;
+  text-transform: uppercase;
+  /* font-weight: bold; */
 }
 
 footer ul {
