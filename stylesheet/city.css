@@ -50,6 +50,10 @@
   font-family: 'M PLUS 1p', sans-serif !important;
 }
 
+.dropdown-item {
+  color: #512C96 !important;
+}
+
 .dropdown-item:hover {
   color: #FFFFFF !important;
   background-color: rgba(81, 44, 150, 0.9) !important;
