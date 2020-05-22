@@ -1,6 +1,6 @@
 .top {
   width: 100%;
-  position: -webkit-sticky; /* Safari */
+/*  position: -webkit-sticky;*/ /* Safari */
   position: fixed;
   top: 0;
   z-index: 500;
@@ -318,6 +318,22 @@ and (orientation : landscape) {
   }
   .name {
     margin-top: 28px;
+  }
+}
+
+/*safari*/
+@media not all and (min-resolution:.001dpcm)
+{ @supports (-webkit-appearance:none) {
+    .button-group {
+      z-index: 501;
+       margin-top: 0px;
+    }
+    .name {
+      top: 0px;
+    }
+    .note {
+      top: 65px;
+    }
   }
 }
 
