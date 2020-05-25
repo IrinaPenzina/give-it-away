@@ -76,6 +76,17 @@ and (orientation : portrait) {
   }
 }
 
+/*iphone 5/SE landscape*/
+@media only screen
+and (min-device-width : 320px) and (max-device-width : 568px)
+and (orientation : landscape) {
+  .index-phrase {
+    font-size: 18px;
+    width: 97%;
+    font-weight: lighter;
+    margin-left: -26%;
+  }
+}
 
 /*Galaxy S5 portrait*/
 @media only screen
@@ -93,6 +104,19 @@ and (orientation : portrait) {
   .search__input {
     width: 75%;
     margin-left: -15%;
+  }
+}
+
+/*Galaxy S5 landscape*/
+@media only screen
+and (min-device-width : 360px) and (max-device-width : 640px)
+and (orientation : landscape) {
+  .index-phrase {
+    font-size: 18px;
+    font-weight: lighter;
+    top: 13%;
+    width: 40% !important;
+    margin-left: 0% !important;
   }
 }
 
@@ -124,6 +148,7 @@ and (orientation : landscape) {
         font-size: 18px;
         font-weight: lighter;
         top: 13%;
+        width: 40%;
       }
       .search__container {
         width: 100%;
@@ -147,9 +172,9 @@ and (min-device-width : 414px) and (max-device-width : 736px)
 and (orientation : landscape) {
     .index-phrase {
       font-size: 18px;
-      width: 40%;
+      width: 62%;
       font-weight: lighter;
-      /* margin-left: -24%; */
+      margin-left: -8%;
     }
     .search__container {
       width: 100%;
@@ -174,7 +199,8 @@ and (-webkit-device-pixel-ratio : 3) and (orientation : portrait) {
     }
     .search__container {
       width: 100%;
-      margin-left: -4%;
+      /* margin-left: -29%; */
+      /* margin-left: -4%; */
     }
     .search__input {
       width: 75%;

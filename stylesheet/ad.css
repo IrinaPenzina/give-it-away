@@ -63,7 +63,7 @@ and (orientation : portrait) {
 and (min-device-width : 360px) and (max-device-width : 640px)
 and (orientation : portrait) {
   .advertising {
-    top: 250px;
+    top: 266px;
     right: 7%;
   }
   .advertising-lg {
@@ -75,6 +75,15 @@ and (orientation : portrait) {
     height: 54px;
     width: 90px;
     border-radius: 10px;
+  }
+}
+
+/*Galaxy S5 landscape*/
+@media only screen
+and (min-device-width : 360px) and (max-device-width : 640px)
+and (orientation : landscape) {
+  .advertising {
+    top: 266px !important;
   }
 }
 
@@ -104,6 +113,7 @@ and (min-device-width : 375px) and (max-device-width : 667px)
 and (orientation : landscape) {
   .advertising {
     top: 250px;
+    right: -15%;
   }
   .advertising-lg {
     height: 186px;
@@ -121,13 +131,20 @@ and (orientation : landscape) {
 @media only screen
 and (min-device-width : 414px) and (max-device-width : 736px)
 and and (-webkit-device-pixel-ratio : 3) and (orientation : portrait) {
-
+  .advertising {
+    top: 250px;
+    right: 5%;
+  }
 }
 
 /*iPhone 6, 7, & 8 Plus landscape*/
 @media only screen
 and (min-device-width : 414px) and (max-device-width : 736px)
 and and (-webkit-device-pixel-ratio : 3) and (orientation : landscape) {
+  .advertising {
+    top: 250px;
+    right: 5%;
+  }
 }
 
 
@@ -157,6 +174,7 @@ and (min-device-width : 375px) and (max-device-width : 812px)
 and (-webkit-device-pixel-ratio : 3) and (orientation : landscape) {
   .advertising {
     top: 250px;
+    right: 5%;
   }
   .advertising-lg {
     height: 141px;
