@@ -126,7 +126,9 @@ li {
   transform: translate(360px, 0);
 }
 
-@media (min-width: 320px) and (max-width: 767px){
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (min-width: 320px) and (max-width: 480px) {
   #main li {
     min-width: 40px;
     padding: 15px 6px;
@@ -138,7 +140,7 @@ li {
 
   .drop-it {
     top: 100%;
-    margin-left: 2%;
+    margin-left: 7%;
   }
 
   #marker {
@@ -150,49 +152,67 @@ li {
   -moz-transform: translate(0, 0);
   -ms-transform: translate(0, 0);
   transform: translate(0, 0);
-}
-#main li:nth-child(1):hover ~ #marker {
-  -webkit-transform: translate(0px, 0);
-  -moz-transform: translate(0px, 0);
-  -ms-transform: translate(0px, 0);
-  transform: translate(0px, 0);
-}
-  #main li:nth-child(2):hover ul div {
-  -webkit-transform: translate(0, 0);
-  -moz-transform: translate(0, 0);
-  -ms-transform: translate(0, 0);
-  transform: translate(0, 0);
   }
-  #main li:nth-child(2):hover ~ #marker {
-    -webkit-transform: translate(65px, 0);
-    -moz-transform: translate(65px, 0);
-    -ms-transform: translate(65px, 0);
-    transform: translate(65px, 0);
+  #main li:nth-child(1):hover ~ #marker {
+    -webkit-transform: translate(0px, 0);
+    -moz-transform: translate(0px, 0);
+    -ms-transform: translate(0px, 0);
+    transform: translate(0px, 0);
   }
-
-  #main li:nth-child(3):hover ul div {
+    #main li:nth-child(2):hover ul div {
     -webkit-transform: translate(0, 0);
     -moz-transform: translate(0, 0);
     -ms-transform: translate(0, 0);
     transform: translate(0, 0);
-  }
-  #main li:nth-child(3):hover ~ #marker {
-    -webkit-transform: translate(134px, 0);
-    -moz-transform: translate(134px, 0);
-    -ms-transform: translate(134px, 0);
-    transform: translate(134px, 0);
+    }
+    #main li:nth-child(2):hover ~ #marker {
+      -webkit-transform: translate(66px, 0);
+      -moz-transform: translate(66px, 0);
+      -ms-transform: translate(66px, 0);
+      transform: translate(66px, 0);
+    }
+
+    #main li:nth-child(3):hover ul div {
+      -webkit-transform: translate(0, 0);
+      -moz-transform: translate(0, 0);
+      -ms-transform: translate(0, 0);
+      transform: translate(0, 0);
+    }
+    #main li:nth-child(3):hover ~ #marker {
+      -webkit-transform: translate(136px, 0);
+      -moz-transform: translate(136px, 0);
+      -ms-transform: translate(136px, 0);
+      transform: translate(136px, 0);
+    }
   }
 }
 
-@media (min-width: 768px) and (max-width: 992px) {
+/*Small devices (landscape phones, less than 768px)*/
+@media (min-width: 481px) and (max-width: 768px) {
   .drop-it {
-    margin-left: 0%;
+    margin-left: 5%;
   }
+}
+
+/*Medium devices (tablets, less than 992px)*/
+@media (min-width: 769px) and (max-width: 1024px) {
+  .drop-it {
+    margin-left: 5%;
+  }
+}
+
+/*Large devices (desktops, less than 1200px)*/
+@media (min-width: 1025px) and (max-width: 1200px) {
+  .drop-it {
+    margin-left: 5%;
+  }
+}
+
+
+@media (min-width: 1201px) and (max-width: 1366px) {
 
 }
 
-@media (min-width: 992px) and (max-width: 1200px) {
-  .drop-it {
-    margin-left: 11%;
-  }
+@media (min-width: 1367px) {
+
 }
