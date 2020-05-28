@@ -1,5 +1,5 @@
 .drop-it {
-  margin-left: 15%;
+  margin-left: 7%;
   background-color: white;
 }
 
@@ -197,20 +197,22 @@ li {
 /*Medium devices (tablets, less than 992px)*/
 @media (min-width: 769px) and (max-width: 1024px) {
   .drop-it {
-    margin-left: 5%;
+    margin-left: 7%;
   }
 }
 
 /*Large devices (desktops, less than 1200px)*/
 @media (min-width: 1025px) and (max-width: 1200px) {
   .drop-it {
-    margin-left: 5%;
+    /* margin-left: 5%; */
   }
 }
 
 
 @media (min-width: 1201px) and (max-width: 1366px) {
-
+  .drop-it {
+    margin-left: 10%;
+  }
 }
 
 @media (min-width: 1367px) {
