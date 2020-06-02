@@ -11,17 +11,18 @@
 }
 
 .login-text {
+  top: 17%;
   position: absolute;
   text-align: center;
-  right: 50%;
+  right: 45%;
   color: #512C96;
   font-weight: lighter;
 }
 
 form {
   position: absolute;
-  top: 25%;
-  left: 25%;
+  top: 30%;
+  left: 30%;
 }
 
 .form-control {
