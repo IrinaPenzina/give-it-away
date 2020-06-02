@@ -6,6 +6,8 @@
   z-index: 500;
 }
 
+
+
 #name {
   color: #512C96;
   padding-left: 19%;
@@ -19,17 +21,19 @@ p, h1, h2, h3 {
 }
 
 .button-group {
-  width: 22%;
+  width: 20%;
   margin-top: -133px;
   display: flex;
 }
 
 .mybtn1 {
-   flex-grow: 4;
+  /*flex-grow: 4;*/
+  width: 50%;
 }
 
 .mybtn2 {
-  flex-grow: 4;
+  /*flex-grow: 4;*/
+  width: 50%;
 }
 
 #mybtn {
