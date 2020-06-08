@@ -1,0 +1,45 @@
+.signin-top {
+
+}
+
+.social-signin {
+  position: absolute;
+  text-align: center;
+  top: 24%;
+  display: flex;
+  justify-content: space-between;
+  right: 48%;
+}
+
+.facebook {
+  width: 10%;
+}
+
+.fb {
+  width: 39px;
+}
+
+.google {
+  width: 10%;
+}
+
+.googlelogo {
+  width: 39px;
+ }
+
+.login-text h1 {
+  font-weight: lighter;
+}
+
+.or h1 {
+  position: absolute;
+  text-align: center;
+  right: 60%;
+  top: 27%;
+  color: #512C96;
+  font-weight: lighter;
+}
+
+.row {
+  margin-bottom: 1rem;
+}

@@ -44,6 +44,7 @@
     <link rel="stylesheet" href="stylesheet/style.css"/>
     <link rel="stylesheet" href="stylesheet/footer.css"/>
     <link rel="stylesheet" href="stylesheet/login.css"/>
+    <link rel="stylesheet" href="stylesheet/signin.css"/>
 
     <!-- font-awesome -->
     <link href="stylesheet/fontawesome-free-5.13.0-web/css/all.css" rel="stylesheet">
@@ -70,25 +71,51 @@
         </div>
        <!--  login buttons -->
         <div class="button-group">
-          <div class="mybtn2">
-            <button type="button" onclick="location.href='signin.html'" class="btn" id="mybtn">sign in</button>
+          <div class="mybtn1">
+            <button type="button" onclick="location.href='login.html'" class="btn" id="mybtn">login</button>
           </div>
         </div>
       </nav>
     </div>
     <div class="container">
-      <img src="image/piggy.jpg" alt="" class="login-img">
+      <img src="image/cuctus.jpg" alt="" class="login-img">
       <div class="login-inside">
-        <h1 class="login-text">Login</h1>
+        <div class="signin-top">
+          <div class="login-text">
+            <h1>Sign in </h1>
+          </div>
+          <div class="social-signin">
+            <div class="facebook">
+              <a href=""><img src="image/fb.png" alt="" class="fb"></a>
+            </div>
+            <div class="google">
+              <a href=""><img src="image/google.svg" alt="" class="googlelogo"></a>
+            </div>
+          </div>
+          <div class="or">
+            <h1>or</h1>
+          </div>
+        </div>
         <form>
+          <div class="row">
+            <div class="col">
+              <input type="text" class="form-control" placeholder="first name">
+            </div>
+            <div class="col">
+              <input type="text" class="form-control" placeholder="last name">
+            </div>
+          </div>
           <div class="form-group">
             <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="email">
-            </div>
-            <div class="form-group">
-              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="password">
-            </div>
+          </div>
+          <div class="form-group">
+            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="password">
+          </div>
+           <div class="form-group">
+            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="the same password">
+          </div>
           <div class="mybtn1">
-            <button type="button" onclick="location.href='index.html'" class="btn" id="mybtn">login</button>
+            <button type="button" onclick="location.href='index.html'" class="btn" id="mybtn">sign in</button>
           </div>
         </form>
       </div>
@@ -107,3 +134,4 @@
     </div>
   </body>
 </html>
+
