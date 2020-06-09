@@ -55,7 +55,7 @@ form {
 @media (min-width: 320px) and (max-width: 480px)
 and (orientation : portrait) {
   .login-img {
-    width: 94%;
+    width: 102%;
     margin-top: 25%;
     box-shadow: none;
   }
@@ -69,7 +69,7 @@ and (orientation : portrait) {
     left: 9%;
     width: 50%;
   }
-      .footer-text {
+  .footer-text {
     font-size: 10px;
   }
 }
@@ -140,6 +140,7 @@ and (orientation : portrait) {
 
    .login-img {
     margin-top: 14%;
+    width: 80%;
   }
 }
 

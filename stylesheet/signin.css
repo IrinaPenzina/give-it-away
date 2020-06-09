@@ -2,6 +2,15 @@
 
 }
 
+.signin-text {
+  top: 17%;
+  position: absolute;
+  text-align: center;
+  right: 45%;
+  color: #512C96;
+  font-weight: lighter;
+}
+
 .social-signin {
   position: absolute;
   text-align: center;
@@ -43,3 +52,167 @@
 .row {
   margin-bottom: 1rem;
 }
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (min-width: 320px) and (max-width: 480px)
+and (orientation : portrait) {
+  .fb {
+    width: 20px;
+  }
+  .googlelogo {
+    width: 20px;
+  }
+  .signin-text {
+    top: 13%;
+    font-size: 27px;
+  }
+  .social-signin {
+    top: 13%;
+    right: 15%;
+  }
+  .singin-input {
+    margin-bottom: 0.25rem !important;
+  }
+  .signin-form {
+    top: 18%;
+    width: 60%;
+  }
+  .form-control {
+    height: calc(1em + .75rem + 2px) !important;
+  }
+  .or {
+    display: none;
+  }
+}
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (min-width: 320px) and (max-width: 480px)
+and (orientation : landscape) {
+
+}
+
+/*Small devices (landscape phones, less than 768px)*/
+@media (min-width: 481px) and (max-width: 767px) {
+
+}
+
+@media (min-width: 481px) and (max-width: 767px)
+  and (orientation : landscape) {
+  .fb {
+    width: 20px;
+  }
+  .googlelogo {
+    width: 20px;
+  }
+  .signin-text {
+    top: 10%;
+  }
+  .social-signin {
+    right: 54%;
+    top: 14%;
+  }
+  .singin-input {
+    margin-bottom: 0.3rem !important;
+  }
+  .signin-form {
+    top: 17%;
+    width: 36%;
+  }
+  .or {
+    display: none;
+  }
+}
+
+/*Medium devices (tablets, less than 992px)*/
+@media (min-width: 768px) and (max-width: 1024px)
+and (orientation : portrait) {
+  .fb {
+    width: 33px;
+  }
+  .googlelogo {
+    width: 33px;
+  }
+  .signin-text {
+    top: 10%;
+  }
+  .social-signin {
+    top: 15%;
+  }
+  .singin-input {
+    margin-bottom: 0.5rem !important;
+  }
+  .signin-form {
+    top: 20%;
+    width: 36%;
+  }
+  .or {
+    display: none;
+  }
+}
+
+/*Medium devices (tablets, less than 992px)*/
+@media (min-width: 768px) and (max-width: 1024px)
+and (orientation : landscape) {
+  .signin-text {
+    top: 11%;
+  }
+  .social-signin {
+    top: 17%;
+  }
+  .fb {
+    width: 27px;
+  }
+  .googlelogo {
+    width: 27px;
+  }
+  .singin-input {
+    margin-bottom: 0.5rem !important;
+  }
+  .or {
+    display: none;
+  }
+   .signin-form {
+    top: 21%;
+    width: 26%;
+  }
+}
+
+/*Large devices (desktops, less than 1200px)*/
+@media (min-width: 1025px) and (max-width: 1200px){
+  .social-signin {
+    top: 24%;
+  }
+
+  .signin-form {
+    width: 30%;
+  }
+}
+
+@media (min-width: 1201px) and (max-width: 1366px)
+and (orientation : portrait) {
+  .social-signin {
+    top: 22%;
+  }
+  .or {
+    display: none;
+  }
+}
+
+@media (min-width: 1201px) and (max-width: 1366px)
+and (orientation : landscape) {
+  .signin-text {
+    top: 11%;
+  }
+  .social-signin {
+    top: 17%;
+  }
+  .or {
+    display: none;
+  }
+}
+
+@media (min-width: 1367px) {
+
+
+}
+
